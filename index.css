@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1 {
+    padding: 2rem 7rem 0rem;
+    padding-left: 8rem;
+    background-color: rgb(95, 6, 179);
+    margin: 0.5rem 0 0 0.5rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 5rem;
+    height: 43rem;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #fff;
+}
+
+nav {
+    /* background-color: pink; */
+    display: flex;
+}
+
+.logo {
+    margin-top: 1rem;
+    padding-right: 18rem;
+}
+
+nav img {
+    height: 2.5rem;
+}
+
+nav a {
+    /* padding-top: 1rem; */
+    float: left;
+    padding: 1.7rem 1.4rem 0rem;
+    /* color: rgba(0, 0, 0, 0.7); */
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+nav a:first-child {
+    color: rgb(13, 132, 243);
+    font-weight: bold;
+    /* border-bottom: 1px solid grey; */
+    text-decoration: underline;
+    border-width: 3px;
+}
+
+.nav-item-active {
+    margin-left: 1.5rem;
+    background-color: rgb(13, 132, 243);
+    padding: 0.8rem 2rem;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 0.7rem;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.nav-item-active:hover {
+    background: linear-gradient(to bottom, rgb(107, 188, 255), rgb(0, 102, 255));
+    color: #fff;
+    font-weight: 500;
+    transition: 0.3s ease-in;
+}
+
+
+/* NAV END */
+
+.header {
+    display: grid;
+    grid-template-columns: 500px 460px;
+    gap: 8rem;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+}
+
+.left h1 {
+    font-size: 3.4rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.1px;
+    color: #fff;
+}
+
+.left p {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    width: 500px;
+}
+
+.left button {
+    color: #fff;
+    background-color: rgb(48, 154, 253);
+    background: linear-gradient(to bottom, rgb(107, 188, 255), rgb(0, 102, 255));
+    border-radius: 5px;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border: none;
+    cursor: progress;
+    text-transform: capitalize;
+}
+
+.right {
+    padding-left: 4rem;
+}
+
+.right img {
+    height: 120%;
+    width: 150%;
+    position: relative;
+    top: -10rem;
+    right: 2em;
+}
+
+
+/* ------------------ */
+
+
+/* .main-cont {
+    padding: 0 2rem;
+} */
+
+.second-section {
+    display: grid;
+    grid-template-columns: 450px 500px;
+    gap: 2rem;
+}
+
+.second-section .left {
+    margin-top: -7rem;
+    margin-left: -2rem;
+}
+
+.second-section .left>img {
+    width: 120%;
+    height: auto;
+}
+
+.second-section .right {
+    padding-left: 7rem;
+    position: relative;
+    left: 15rem;
+    bottom: 2rem;
+}
+
+.second-section .right>h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.first,
+.second,
+.third {
+    margin-bottom: 2rem;
+}
+
+.first h3,
+.second h3,
+.third h3 {
+    margin-bottom: 1rem;
+}
+
+.first p,
+.second p,
+.third p {
+    width: 20rem;
+    font-size: 1rem;
+}
+
+.fa {
+    transform: rotateY(180deg);
+    margin-right: 1rem;
+}
+
+.orange {
+    color: rgb(255, 167, 2);
+}
+
+.green {
+    color: rgb(2, 202, 2);
+}
+
+.blue {
+    color: rgb(75, 182, 224);
+}
+
+
+/* ============================== */
+
+.last-section {
+    margin-top: 1rem;
+}
+
+.last-section h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.feature-cards {
+    display: grid;
+    grid-template-columns: 220px 220px 220px 220px;
+    padding: 0 5rem;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.card {
+    padding-top: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 10px 0px 5px rgb(197, 193, 193);
+}
+
+.card .images {
+    background-color: rgb(0, 255, 213);
+    padding: 1rem;
+    height: 43%;
+    width: 50%;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    left: 3rem;
+    margin-bottom: 2rem;
+    background-color: rgb(255, 231, 235);
+}
+
+.content:hover {
+    border-radius: 15px;
+    background-color: rgb(174, 91, 243);
+    margin: 0rem -1rem -10px;
+    padding: 1rem;
+    padding-bottom: 1rem;
+    transition: 0.3s ease-in-out;
+    color: #fff;
+}
