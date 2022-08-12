@@ -1,6 +1,8 @@
-# Project-12/15 
+# Project-13/15 
 It is a static home page made using **HTML & CSS**.
 
-> ### The Screenshots of the site are attached below:-
+## Widely used property in this project is CSS grid.
+
+> ### The Screenshot of the site are attached below:-
 
 ![Project-13 ScreenShot:](SS13.png "SAAS Landing page")
